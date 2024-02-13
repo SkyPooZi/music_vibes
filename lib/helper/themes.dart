@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 const Color primaryColor = Colors.black;
 const Color primarySecondColor = Colors.white;
 const Color primaryTextColor = Color(0xF2EAF9);
+const Color backColor = Color(0xFFF6243D);
 
 const double defaultPadding = 16.0;
 
