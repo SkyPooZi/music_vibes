@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 const Color primaryColor = Colors.black;
 const Color primarySecondColor = Colors.white;
 const Color primaryTextColor = Color(0xF2EAF9);
+const Color greyColor = Color(0xFFB3B3B3);
 const Color backColor = Color(0xFFF6243D);
 
 const double defaultPadding = 16.0;
@@ -22,31 +23,55 @@ TextStyle textChatting() {
   return TextStyle(
     fontSize: 30,
     fontWeight: FontWeight.w700,
-    fontFamily: 'Lato',
+    fontFamily: 'Poppins',
+    color: primarySecondColor,
   );
 }
 
 TextStyle textNoChat() {
   return TextStyle(
-    fontFamily: 'Lato',
+    fontFamily: 'Poppins',
     fontWeight: FontWeight.w900,
     fontSize: 18,
+    color: primarySecondColor,
   );
 }
 
 TextStyle defaultText = TextStyle(
-    fontFamily: 'NotoSerifMedium'
+    fontFamily: 'NotoSerifMedium',
+    color: primarySecondColor,
+
 );
 
 TextStyle titleText = TextStyle(
-  fontFamily: 'Lato',
+  fontFamily: 'Poppins',
   fontSize: 30,
-  fontWeight: FontWeight.bold,
+  fontWeight: FontWeight.w700,
+  color: primarySecondColor,
+);
+
+TextStyle subtitleText = TextStyle(
+  fontFamily: 'Poppins',
+  fontSize: 20,
+  fontWeight: FontWeight.w600,
+  color: primarySecondColor,
+);
+
+TextStyle subtitleTextGrey = TextStyle(
+  fontFamily: 'Poppins',
+  fontSize: 20,
+  fontWeight: FontWeight.w600,
+  color: greyColor,
 );
 
 TextStyle textField = TextStyle(
-    fontFamily: 'NotoSerifMedium',
-    color: primaryTextColor
+    fontFamily: 'Poppins',
+    color: primarySecondColor,
+);
+
+TextStyle textFieldGrey = TextStyle(
+  fontFamily: 'Poppins',
+  color: greyColor,
 );
 
 //IMAGE ASSETS
